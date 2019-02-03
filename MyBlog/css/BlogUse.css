@@ -1,7 +1,7 @@
-body{
+      body{
             margin: 0;
             padding: 0;
-
+            background-color: rgba(190,190,190,0.5);
          }
          #ShanePage{
             width: 100vw;
@@ -20,7 +20,7 @@ body{
 
          .medal{
             width: 100vw;
-            height: 100vh;
+            min-height: 100vh;
             background-color: rgba(190,190,190,0.5);
             position: absolute;
             z-index: 0;
@@ -46,6 +46,12 @@ body{
             line-height: 50px;
          }
 
+         #drawing{
+            margin-left: auto;
+            margin-right: auto;
+            animation:myFirst 3s ease-in;
+         }
+
          .logo{
             width: 50px;
             height: 30px;
@@ -53,7 +59,7 @@ body{
          }
 
          #welcome-content{
-            margin-top: 30px;
+            /*margin-top: 30px;*/
             width: 40%;
             text-align: center;
             margin-left: auto;
@@ -163,7 +169,7 @@ body{
          .test-transform{
             height: 50px;
             width: 50px;
-            margin-top: 30px;
+            /*margin-top: 30px;*/
             font-size: 30px;
             color: white;
             animation: myFirst 3s ease-in;
@@ -226,7 +232,7 @@ body{
          }
 
          .blog-title{
-            margin-top: 20px;
+            /*margin-top: 20px;*/
             font-family: 'BlinkMacSystemFont',Segoe UI,Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             line-height: 50px;
             letter-spacing: 8px;
